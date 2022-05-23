@@ -52,20 +52,3 @@ print(document)
 with open("{}{}".format(PLAYLIST_DIR, 'somafm_all.pls'),'w') as f:
     f.write(document)
 
-
-
-
-    
-    
-    
-
-
-
-
-
-
-
-
-
-
-
