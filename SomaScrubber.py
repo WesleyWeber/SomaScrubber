@@ -24,6 +24,7 @@ for playlist in PLAYLIST_LIST:
 #Make playlist DIR and save to it
 files=[]
 os.makedirs(os.path.dirname(PLAYLIST_DIR), exist_ok=True)
+
 for playlist in PLAYLISTS:
     r = requests.get(playlist, allow_redirects=True)
     filename = playlist[playlist.rfind('/')+1:]
